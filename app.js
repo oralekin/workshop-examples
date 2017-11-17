@@ -18,3 +18,6 @@ app.get("/:textname", function(req, res){
     
     res.send(textContent)
 })
+
+
+app.listen(3000, "workshop examples running")
